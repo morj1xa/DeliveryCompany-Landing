@@ -1,0 +1,42 @@
+.advantages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.advantages h2 {
+  font-weight: 800;
+  font-size: 25px;
+  padding: 15px 0;
+}
+.advantages-cards {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  gap: 50px;
+  justify-content: center;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.advantages-card {
+  display: flex;
+  align-items: center;
+}
+
+.advantages-card img {
+  width: 113px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-info h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card-info p {
+  font-size: 13px;
+  white-space: pre-line;
+}

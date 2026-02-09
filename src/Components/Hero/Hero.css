@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 60px 0;
+}
+
+.hero__left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+}
+
+.hero__left img {
+  border-radius: 15px;
+  width: 100%;
+}
+
+.hero__left h1 {
+  display: inline-block;
+  font-size: 31px;
+  font-weight: 700;
+}
+
+.hero__left p {
+  font-size: 17px;
+}
+
+.hero__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f9fafb;
+  border-radius: 16px;
+  width: 50%;
+}
+
+.hero__right h3 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.hero__right p {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.hero__right-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 25px;
+}
+.hero__right-form .long {
+  grid-column: 1 / -1;
+  width: 100%-20px;
+}
+
+.hero__right-form button {
+  grid-column: 1 / -1;
+  width: 100%;
+}

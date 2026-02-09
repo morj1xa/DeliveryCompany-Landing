@@ -1,0 +1,36 @@
+.guarantees {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 60px 0;
+}
+.guarantees h2 {
+  font-weight: 700;
+}
+.guarantees p {
+  padding: 10px 0px;
+}
+.guarantees button {
+  padding: 10px 20px;
+}
+.guarantees-gal {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.guarantees-gal img {
+  width: 300px;
+}
+
+.guarantees-gal p {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.guarantees-card {
+  margin: 0px;
+  padding: 0px;
+}

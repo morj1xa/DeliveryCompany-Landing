@@ -1,0 +1,38 @@
+.review-card {
+  background-color: #f9fafb;
+  border-radius: 16px;
+  padding: 15px;
+  width: 396px;
+}
+
+.card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 15px;
+}
+
+.reviews {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.reviews h2 {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.reviews-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.arrow-button {
+  background: transparent;
+}
+
+.arrow-button:hover {
+  cursor: pointer;
+}
